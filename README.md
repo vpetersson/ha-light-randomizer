@@ -1,6 +1,6 @@
 # Home Assistant Light Randomizer
 
-This is a Home Assistant implementation of the old-school power plugs timers intended to turn on/off lights at random times when traveling to create the illusion of someone being home.
+This is a Home Assistant implementation of the old-school power plug timers intended to turn on/off lights at random times when traveling to create the illusion of someone being home.
 
 Since Home Assistant can already turn on/off lights, I thought it would be fun to re-create this but with a bit more intelligence.
 
@@ -8,6 +8,7 @@ Since Home Assistant can already turn on/off lights, I thought it would be fun t
 
 * Install and configure [pyscript](https://github.com/custom-components/pyscript)
 * Copy in the scropt to the `pyscript` folder
+  * Modify the group of lights you want to target
 * Create an automation as per below to trigger the script (modify it to fit your needs)
 
 
